@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  <title>Calculator</title>
+</head>
+<body>
+  <header class="calculator_frame">
+    <div class="calculator_first_fram">
+      <div class="calculator_output">
+        <!--Result-->
+        <input id="result" readonly>
+      </div>
+      <hr>
+      <!--Button Section-->
+        <div class="all_buttons">
+   <button onclick="apenddel()">AC</button>
+   <button onclick="popfun()">←</button>
+   <button onclick="apenddel()">del</button>
+   <button onclick="apendFun('*')">*</button>
+   <button onclick="apendFun('7')">7</button>
+   <button onclick="apendFun('8')">8</button>
+   <button onclick="apendFun('9')">9</button>
+   <button onclick="apendFun('/')">/</button>
+   <button onclick="apendFun('4')">4</button>
+   <button onclick="apendFun('5')">5</button>
+   <button onclick="apendFun('6')">6</button>
+   <button onclick="apendFun('-')">-</button>
+   <button onclick="apendFun('1')">1</button>
+   <button onclick="apendFun('2')">2</button>
+   <button onclick="apendFun('3')">3</button>
+   <button onclick="apendFun('+')">+</button>
+   <button onclick="apendFun('0')">0</button>
+   <button onclick="apendFun('00')">00</button>
+   <button onclick="apendFun(.)">.</button>
+   <button onclick="res()">=</button>
+        </div>
+
+    </div>
+  </header>
+  
+  
+  
+<script src="script.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>
